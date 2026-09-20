@@ -6,8 +6,8 @@
 
 | 能力 | 端点 | 计价 |
 |---|---|---|
-| 多语种文本翻译 | `POST https://tts.xalhar.top/a2m/v1/translate` | ¥0.1 / 次 |
-| AI 视频配音 | `POST https://tts.xalhar.top/a2m/v1/dubbing` | ¥1/分钟（最低 ¥2），按实测时长动态计费 |
+| 多语种文本翻译 | `POST https://zvex.cn/a2m/v1/translate` | ¥0.1 / 次 |
+| AI 视频配音 | `POST https://zvex.cn/a2m/v1/dubbing` | ¥1/分钟（最低 ¥2），按实测时长动态计费 |
 
 ## 安装
 
@@ -29,7 +29,7 @@
 ## 相关仓库
 
 - MCP Server（API Key 模式，适配 Claude/Cursor 等客户端）：<https://github.com/erzat1986/zvex>
-- 服务官网与协议文档：<https://tts.xalhar.top> · [MCP/AI 付接入文档](https://tts.xalhar.top/docs/mcp)
+- 服务官网与协议文档：<https://zvex.cn> · [MCP/AI 付接入文档](https://zvex.cn/docs/mcp)
 
 ## 许可
 

@@ -11,8 +11,8 @@ description: 多语种视频译制配音与文本翻译服务（声桥 zvex）�
 
 | 能力 | 端点 | 计价 |
 |---|---|---|
-| 视频译制配音 | `POST https://tts.xalhar.top/a2m/v1/dubbing` | ¥1/分钟（最低 ¥2/单），按服务端 ffprobe 实测时长动态计费 |
-| 文本翻译 | `POST https://tts.xalhar.top/a2m/v1/translate` | ¥0.1/次 |
+| 视频译制配音 | `POST https://zvex.cn/a2m/v1/dubbing` | ¥1/分钟（最低 ¥2/单），按服务端 ffprobe 实测时长动态计费 |
+| 文本翻译 | `POST https://zvex.cn/a2m/v1/translate` | ¥0.1/次 |
 
 目标语言（`target_language`）当前开放：`ru` / `en` / `es`（持续扩展，以部署支持集为准）。
 
@@ -70,4 +70,4 @@ POST /a2m/v1/dubbing
 
 ## 服务方
 
-声桥 zvex（<https://tts.xalhar.top>）。两个服务均已上架支付宝 AI 付服务市场（搜索"声桥"或"zvex"）：声桥AI文本翻译（`API_346E3890E1B7484B`）、声桥AI视频配音（`API_8A3F6B99D33E4D36`）。协议细节与 MCP 接入方式见 <https://tts.xalhar.top/docs/mcp>。
+声桥 zvex（<https://zvex.cn>）。两个服务均已上架支付宝 AI 付服务市场（搜索"声桥"或"zvex"）：声桥AI文本翻译（`API_346E3890E1B7484B`）、声桥AI视频配音（`API_8A3F6B99D33E4D36`）。协议细节与 MCP 接入方式见 <https://zvex.cn/docs/mcp>。
