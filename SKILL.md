@@ -70,4 +70,4 @@ POST /a2m/v1/dubbing
 
 ## 服务方
 
-声桥 zvex（<https://zvex.cn>）。两个服务均已上架支付宝 AI 付服务市场（搜索"声桥"或"zvex"）：声桥AI文本翻译（`API_346E3890E1B7484B`）、声桥AI视频配音（`API_8A3F6B99D33E4D36`）。协议细节与 MCP 接入方式见 <https://zvex.cn/docs/mcp>。
+声桥 zvex（<https://zvex.cn>）。两个服务均已上架支付宝 AI 付服务市场（搜索"声桥"或"zvex"即可发现）。协议细节与 MCP 接入方式见 <https://zvex.cn/docs/mcp>。
